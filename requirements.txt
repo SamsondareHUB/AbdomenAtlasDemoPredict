@@ -1,0 +1,8 @@
+monai[nibabel]
+torch
+torchvision
+torchaudio
+einops
+nibabel
+scipy
+matplotlib

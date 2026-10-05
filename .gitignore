@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# Exclude heavy model weights and binary medical data from Git tracking completely
+weights/
+data/
+outputs/
