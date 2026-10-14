@@ -6,7 +6,7 @@ import numpy as np
 from scipy.ndimage import label, binary_opening, binary_closing, binary_fill_holes
 
 
-def keep_largest_component(mask):
+def keep_largest_component(mask): 
     """
     Keep only the largest connected component in a binary mask.
     """
